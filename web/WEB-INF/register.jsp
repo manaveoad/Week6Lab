@@ -1,3 +1,5 @@
+
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -9,7 +11,8 @@
         <h1>Shopping List</h1>
         <form action="ShoppingList" method="post">
             Username: <input type="text" name="username" >
-            <input type="hidden" name="action" value="register"><br>
+            <input type="hidden" name="action" value="register">
+            <br>
             <input type="submit" value="Register">
         </form>
         <p>${message}</p>
